@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url("https://t3.ftcdn.net/jpg/07/41/57/50/360_F_741575084_eLPzRBX4siOp3FbEsTOfkFNS0KO897HY.jpg");
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+
+}
+  
+  header {
+    background-color: #2f0c33;
+    color: aliceblue;
+    padding: 20px;
+  }
+  
+  #animeList {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+  }
+  
+  .anime-card {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .anime-card img {
+    width: 150px; /* ajusta el ancho */
+    height: 200px; /* aajusta el alto */
+    border-radius: 8px; 
+    margin-bottom: 10px; /* Espacioo entre imagenes*/
+  }
+  
